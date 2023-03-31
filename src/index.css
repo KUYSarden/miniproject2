@@ -1,3 +1,41 @@
+.top-nav-links a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.log-in {
+    color: black;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.log-in:hover {
+    background-color: rgb(77, 74, 74);
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.sign-up {
+    background-color: rgb(77, 74, 74);
+    color: white;
+    padding: 3px;
+    font-size: 18px;
+    border-radius: 10px;
+    
+}
+
+.sign-up:hover {
+    background-color: white;
+    color: rgb(77, 74, 74);
+}
+
+
+
 .home {
     width: auto;
 }
@@ -34,6 +72,10 @@
 .inside-home h3 {
     color: black;
     font-size: 30px;
+}
+
+.inside-home h5 {
+    font-size: 15px;
 }
 
 
