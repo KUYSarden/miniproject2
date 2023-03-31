@@ -1,0 +1,53 @@
+.home {
+    width: auto;
+}
+
+
+.home .home-hero {
+   display: grid;
+   text-align: center;
+   align-items: center;
+   margin: 50px;
+}
+
+
+.home-body {
+
+    background-image: url(./assets/home-image.jpg);
+    height: 600px;
+    background-position: top;
+    background-size: cover;
+    margin: 50px;
+}
+
+.inside-home {
+
+    display: block;
+    text-align: left;
+    margin-top: 400px;
+    width: 500px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+
+
+.inside-home h3 {
+    color: black;
+    font-size: 30px;
+}
+
+
+.inside-home p {
+    font-size: 13px;
+}
+
+.links a {
+    text-decoration: none;
+    margin-left: 8px;
+    color: white;
+    font-size: 15px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1.5px;
+    padding: 2px;
+}
