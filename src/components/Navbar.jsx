@@ -28,6 +28,8 @@ const Navbars = () => {
               </NavDropdown.Item>
               <NavDropdown.Item href="#action5">
                 Languages
+              </NavDropdown.Item><NavDropdown.Item href="#action5">
+                Blogs
               </NavDropdown.Item>
              
              
