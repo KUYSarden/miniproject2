@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Home = () => {
+const Hero = () => {
   return (
     <div className='home'>
         <div className='home-hero'>
@@ -24,4 +24,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Hero
