@@ -12,8 +12,6 @@ const App = () => {
           return <Route key={index} path={route.path} element={route.element} exact />
         })}
       </Routes>
-   
-   
    </>
   )
 }

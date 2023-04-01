@@ -3,6 +3,21 @@
     margin: 10px;
 }
 
+a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(85, 84, 84);
+    padding-top: 10px;
+    margin: 4px;
+
+    
+}
+
+.links-dropdown {
+    display: grid;
+}
+
 .logo {
     width: 50px;
 }
@@ -92,4 +107,21 @@
     border-radius: 10px;
     border-width: 1.5px;
     padding: 2px;
+}
+
+
+.loading {
+    text-align: center;
+    font-size: 40px;
+    color: gray;
+    padding: 50px;
+}
+
+.blog-body {
+    margin: 50px;
+}
+
+.blog-h1 {
+   text-align: center;
+   padding: 20px;
 }

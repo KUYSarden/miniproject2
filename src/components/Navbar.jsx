@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Blog from '../assets/Blog.png'
+import { NavLink } from "react-router-dom"
 
 
 const Navbars = () => {
@@ -20,19 +21,27 @@ const Navbars = () => {
           style={{ maxHeight: '100px' }}
           navbarScroll
         >
-          <Nav.Link href="#">Home</Nav.Link>
-          <Nav.Link href="#">Projects</Nav.Link>  
-          <NavDropdown title="More" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Contacts</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                About us
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action5">
-                Languages
-              </NavDropdown.Item><NavDropdown.Item href="#action5">
+         <NavLink to="/" end>Home</NavLink>
+          <NavLink to="/projects" end>Projects</NavLink>
+          <NavLink to="Blog" end>
                 Blogs
-              </NavDropdown.Item>
-             
+              </NavLink>  
+          <NavDropdown title="More" id="navbarScrollingDropdown">                        
+           <div className='links-dropdown'>
+           <NavLink to="Blog" end>
+                About Us
+              </NavLink>
+              <NavLink to="Blog" end>
+                Partners
+              </NavLink>
+              <NavLink to="Blog" end>
+                Languages
+              </NavLink>
+              <NavLink to="Blog" end>
+                Contacts
+              </NavLink>
+              
+           </div>
              
             </NavDropdown>
               
