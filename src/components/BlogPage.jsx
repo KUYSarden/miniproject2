@@ -48,8 +48,8 @@ function  BlogPage () {
         <Card.Text className="cardtext">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt cupiditate nihil perferendis obcaecati. Magni vel dicta praesentium asperiores ad optio nesciunt quasi. Facere animi ipsum fuga ipsam quidem nulla minima accusantium et, sunt error. Dignissimos alias tempora impedit similique porro?
         </Card.Text>
-        <Card.Link href="#">Card Link</Card.Link>
-        <Card.Link href="#">Another Link</Card.Link>
+        <Card.Link href="#">Explore</Card.Link>
+        
        <div className="textdiv">
        <textarea className="textarea" placeholder="comment" name="" id="" cols="30" rows="10"></textarea>
       <span className="lbutton"> <LoadingButton/></span>

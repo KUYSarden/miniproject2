@@ -60,6 +60,23 @@ a {
     padding: 50px;
 }
 
+.home-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.home-cards-image {
+    margin: 10px;
+}
+
+.card {
+    height: 500px;
+}
+
+.card-img-top {
+    height: 300px;
+    
+}
 
 .home .home-hero {
    display: grid;
