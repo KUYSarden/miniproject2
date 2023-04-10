@@ -55,6 +55,11 @@ a {
     width: auto;
 }
 
+.homebackground {
+    background-color: bisque;
+    padding: 50px;
+}
+
 
 .home .home-hero {
    display: grid;
@@ -117,11 +122,86 @@ a {
     padding: 50px;
 }
 
+
+
 .blog-body {
+    display: flex;
     margin: 50px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    
 }
+
+.card-height {
+    height: auto;
+}
+
+.textdiv {
+    margin-top: 45px;
+}
+
+.textarea {
+    height: 40px;
+   
+}
+
+.cardtext {
+    line-height: 30px;
+}
+
+
+
+span {
+    position: relative;
+}
+
+.lbutton {
+
+position: absolute;
+margin-bottom: 10px;
+padding-left: 5px;
+
+}
+
+.body-content {
+    margin: 30px;
+    padding: 10px;
+    
+   
+}
+
+
+.blogpage {
+    background-color: bisque;
+}
+
+
 
 .blog-h1 {
    text-align: center;
    padding: 20px;
+}
+
+
+.projectcontent {
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.proj {
+    width: 400px;
+    margin: 20px;
+}
+
+.json {
+    text-align: center;
+    padding: 50px;
+}
+.span {
+    font-size: 20px;
 }

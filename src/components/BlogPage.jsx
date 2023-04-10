@@ -2,6 +2,8 @@
 import React from "react"
 import { useState, useEffect } from "react"
 import axios from "axios"
+import Card from 'react-bootstrap/Card'
+import LoadingButton from "./Loadingbutton"
 
 
 function  BlogPage () {
@@ -10,7 +12,7 @@ function  BlogPage () {
    const [loading, setLoading] = useState(true);
 
    const fetchPosts = async() => {
-    const responsePosts = await axios.get(`https://jsonplaceholder.typicode.com/posts`);
+    const responsePosts = await axios.get(`https://jsonplaceholder.typicode.com/users`);
     setPosts(responsePosts.data);
     setLoading(false);
     
@@ -27,20 +29,43 @@ function  BlogPage () {
 
    return (
     <>  
-    {loading ? <div className="loading">FETCHING DATA</div>: <div className="blog-body">
+    {loading ? <div className="loading">FETCHING DATA</div>: <div className="blogs">
+    <div className="blog-body">
+    <div className="d-body">
     {
         posts.map((post, index) =>
-        <div key={index}>
-          {post.id}.  {post.title}
-          <div>
-            {post.body}
-          </div>
-          <hr />
+        <div className="body-content" key={index}>
+         <Card className="card-height" style={{ width: '750px'}} >
+      <Card.Body>
+        <Card.Title>{post.name}</Card.Title>
+        <Card.Subtitle className="mb-2">{post.email}</Card.Subtitle>
+        <div>
+        Phone:  {post.phone}
+        </div>
+        <div>
+        Website:  {post.website}
+        </div>
+        <Card.Text className="cardtext">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt cupiditate nihil perferendis obcaecati. Magni vel dicta praesentium asperiores ad optio nesciunt quasi. Facere animi ipsum fuga ipsam quidem nulla minima accusantium et, sunt error. Dignissimos alias tempora impedit similique porro?
+        </Card.Text>
+        <Card.Link href="#">Card Link</Card.Link>
+        <Card.Link href="#">Another Link</Card.Link>
+       <div className="textdiv">
+       <textarea className="textarea" placeholder="comment" name="" id="" cols="30" rows="10"></textarea>
+      <span className="lbutton"> <LoadingButton/></span>
+       </div>
+      </Card.Body>
+    </Card>
         </div>
         
         )
     }
-    </div>  } 
+    </div>
+    </div>
+    <div>
+      
+      </div> 
+    </div> } 
     
     </>
    )

@@ -22,7 +22,7 @@ const Navbars = () => {
           navbarScroll
         >
          <NavLink to="/" end>Home</NavLink>
-          <NavLink to="/projects" end>Projects</NavLink>
+          <NavLink to="/Projects" end>Projects</NavLink>
           <NavLink to="Blog" end>
                 Blogs
               </NavLink>  
