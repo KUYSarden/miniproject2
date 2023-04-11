@@ -30,8 +30,9 @@ const Hero = () => {
 
         <section id='Design'>
           <div className='home-cards'>
-         <div className='home-cards-image'>
-         <Card style={{ width: '16rem' }}>
+        <div>
+        <div className='home-cards-image'>
+         <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={Home1} />
       <Card.Body>
         <Card.Title>Design page</Card.Title>
@@ -46,7 +47,7 @@ const Hero = () => {
 
 
          <div className='home-cards-image'>
-         <Card style={{ width: '16rem' }}>
+         <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={Home2} />
       <Card.Body>
         <Card.Title>Design page</Card.Title>
@@ -58,10 +59,12 @@ const Hero = () => {
       </Card.Body>
     </Card>
          </div>
+        </div>
 
 
+         <div>
          <div className='home-cards-image'>
-         <Card style={{ width: '16rem' }}>
+         <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={Home3} />
       <Card.Body>
         <Card.Title>Design page</Card.Title>
@@ -77,7 +80,7 @@ const Hero = () => {
 
 
          <div className='home-cards-image'>
-         <Card style={{ width: '16rem' }}>
+         <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={Home4} />
       <Card.Body>
         <Card.Title>Design page</Card.Title>
@@ -89,6 +92,10 @@ const Hero = () => {
       </Card.Body>
     </Card>
          </div>
+         </div>
+
+
+       
           </div>
         </section>
     </div>

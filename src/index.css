@@ -63,19 +63,26 @@ a {
 .home-cards {
     display: flex;
     justify-content: center;
+    width: auto;
 }
 
 .home-cards-image {
-    margin: 10px;
+    margin: 30px;
 }
 
 .card {
     height: 500px;
+    width: auto;
 }
 
 .card-img-top {
     height: 300px;
     
+}
+
+#Design {
+    width: auto;
+   
 }
 
 .home .home-hero {
@@ -93,6 +100,10 @@ a {
     background-position: top;
     background-size: cover;
     margin: 80px;
+}
+
+.home-cards div {
+    display: grid;
 }
 
 .inside-home {
@@ -230,6 +241,14 @@ padding-left: 5px;
 
 .footer{
     background-color: #2d2d32;
+    
+}
+
+.footer a {
+
+    color: rgb(175, 175, 179);
+    text-decoration: none;
+
 }
 
 sb__footer-links{
@@ -252,10 +271,10 @@ sb_footer-links_div{
     color: white;
 }
 
-a{
+/* a{
     color: rgb(175, 175, 179);
     text-decoration: none;
-}
+} */
 
 .socialmedia{
     display: flex;
@@ -273,10 +292,10 @@ a{
 }
 
 .sb__footer-below{
-    display:flex
-    flex-direction:row;
+    display:flex;
+    flex-direction: row;
     justify-content:space-between;
-    margin-top:0.2em;
+    margin-top: 0.2em;
 }
 
 .sb__footer-below-links{
@@ -309,6 +328,70 @@ hr{
         font-size: 44px;
         line-height: 50px;
     }
+
+
+    .blog-body {
+        margin: auto;
+    }
+
+    .card {
+        width: auto !important;
+    }
+
+    .textdiv {
+        display: block;
+    }
+
+    
+
+
+
+
+
+  /* project page */
+    .json {
+        padding: 20px;
+    }
+
+    .projectcontent {
+        display: block;
+    }
+
+    .projectcontent .proj {
+        width: auto;
+        margin: 10px;
+    }
+
+
+    /* homepage */
+
+    .homebackground {
+        padding: 10px;
+    }
+
+    .home-hero {
+        margin: auto !important;
+    }
+
+   .home-body {
+    margin: auto;
+   }
+   
+
+    .inside-home {
+        width: auto;
+        margin-top: 380px;
+        padding: auto;
+    }
+
+    .inside-home .links  {
+        margin: auto;
+    }
+
+   .home-cards {
+        display: grid;
+        width: auto;
+    }
 }
 @media screen and (max-width:550px) {
     .sb__footer-heading h1{
@@ -334,7 +417,29 @@ hr{
         margin-left: 0rem;
         margin-top: 1rem;
     }
+
+    /* blogpage */
+
+   
 }
+
+
+
+@media screen and (max-width: 480px) {
+
+    .lbutton {
+        position: relative;
+    }
+
+}
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 400px) {
     .sb__footer-heading h1{

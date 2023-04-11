@@ -1,5 +1,4 @@
 import React from "react";
-import "./footer.css";
 import fb from '../assets/fb.png';
 import twitter from '../assets/twitter.png';
 import instagram from '../assets/instagram.png';
@@ -41,7 +40,7 @@ const Footer=()=>{
                     <p>Swing Tech</p>
                 </a>
             </div>
-            <div classname="sb__footer-links_div">
+            <div className="sb__footer-links_div">
                 <h4>Company</h4>
                 <a href="/About">
                     <p>About</p>
