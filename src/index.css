@@ -334,9 +334,14 @@ hr{
         margin: auto;
     }
 
-    .card {
+
+    .card-height {
         width: auto !important;
     }
+
+    /* .card {
+        width: auto !important;
+    } */
 
     .textdiv {
         display: block;
