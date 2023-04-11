@@ -245,8 +245,16 @@ padding-left: 5px;
     font-size: 20px;
 }
 
+.footer-body {
+    background-color: #2d2d32;
+
+}
+
 .footer{
     background-color: #2d2d32;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
     
 }
 
