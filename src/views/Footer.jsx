@@ -1,8 +1,5 @@
 import React from "react";
-<<<<<<< HEAD
 
-=======
->>>>>>> dbe941038c3c27cd06bc3ae9cc8f177e92a8e221
 import fb from '../assets/fb.png';
 import twitter from '../assets/twitter.png';
 import instagram from '../assets/instagram.png';

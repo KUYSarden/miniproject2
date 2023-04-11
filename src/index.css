@@ -75,6 +75,8 @@ a:hover {
 
 .home-cards-image {
     margin: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .card {
@@ -107,7 +109,7 @@ a:hover {
     background-position: top;
     background-size: cover;
     margin: 80px;
-    background-position-y: -200px;
+    
 }
 
 .home-cards div {
@@ -147,7 +149,7 @@ a:hover {
     border-style: solid;
     border-radius: 20px;
     border-width: 2px;
-    padding: 10px;
+    padding: 5px;
 }
 
 
@@ -298,16 +300,9 @@ sb_footer-links_div{
 
 .sb__footer-below{
     display:flex;
-<<<<<<< HEAD
-    flex-direction:row;
-    justify-content:space-between;
-    margin-top:0.2em;
-    justify-content: space-evenly;
-=======
     flex-direction: row;
     justify-content:space-between;
     margin-top: 0.2em;
->>>>>>> dbe941038c3c27cd06bc3ae9cc8f177e92a8e221
 }
 
 .sb__footer-below-links{
@@ -393,12 +388,21 @@ hr{
    .home-body {
     margin: auto;
    }
+
+   .home-cards-image {
+    display:grid;
+     align-items: center ;
+   }
    
 
     .inside-home {
         width: auto;
         margin-top: 380px;
         padding: auto;
+    }
+
+    .links a {
+        font-size: 15px;
     }
 
     .inside-home .links  {
