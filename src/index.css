@@ -93,6 +93,7 @@ a {
     background-position: top;
     background-size: cover;
     margin: 80px;
+    background-position-y: -200px;
 }
 
 .inside-home {
