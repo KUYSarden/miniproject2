@@ -377,6 +377,28 @@ hr{
         display: block;
     }
 
+    .footer-body {
+        display: block;
+        width: auto;
+    }
+
+
+    .footer {
+        width: auto;
+        display: block;
+        text-align: center;
+
+        margin: auto;
+    }
+
+    .social_media img {
+        width: 60px;
+    }
+
+    .sb__footer-links_div {
+        width: auto;
+    }
+
     
 
 
@@ -447,6 +469,19 @@ hr{
         margin: 1rem 0;
         line-height: 20px;
         
+    }
+
+    .footer {
+        display: block;
+        padding: 10px;
+    }
+
+    .sb__footer-below {
+        text-align: center;
+    }
+
+    .social_media img {
+        width: 40px;
     }
 
     .sb__footer-below{
