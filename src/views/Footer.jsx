@@ -13,7 +13,7 @@ const Footer=()=>{
 
        <div className="footer-body">
          <div className="footer">
-            <div>
+            <div className="sb__footer-links_div">
                 <h4>For Business</h4>
                 <a href="/employer">
                        <p>Employer</p>
@@ -26,7 +26,7 @@ const Footer=()=>{
                        </a>
             </div>
 
-            <div>
+            <div className="sb__footer-links_div">
                 <h4>Resources</h4>
                 <a href="/resource">
                          <p>Resource Center</p>
@@ -39,7 +39,7 @@ const Footer=()=>{
                      </a>
             </div>
 
-            <div>
+            <div className="sb__footer-links_div">
                 <h4>Company</h4>
                 <a href="/About">
                      <p>About</p>
@@ -55,9 +55,9 @@ const Footer=()=>{
                  </a>
             </div>
 
-            <div >
+            <div className="sb__footer-links_div">
                 <h4>Coming Soon on</h4>
-                <div className="social media">
+                <div className="social_media">
                     <p><img src={fb} alt="" /></p>
                     <p><img src={twitter} alt="" /></p>
                      <p><img src={linkedin} alt="" /></p>
@@ -69,7 +69,7 @@ const Footer=()=>{
             
          </div>
  </div>
-
+<hr />
  <div className="sb__footer-below">
          <div className="sb__footer-copyright">
              <p>
