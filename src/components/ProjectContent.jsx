@@ -1,6 +1,7 @@
 import React from "react"
 import { useState, useEffect } from "react"
 import axios from "axios"
+import ButtonExample from "./Spinnerloading";
 
 
 function  Content () {
@@ -31,7 +32,7 @@ function  Content () {
       <div><h5><span>from</span>JSONplaceholder</h5></div>
     </div>
 
-    {loading ? <div className="loading">FETCHING DATA</div>: <div >
+    {loading ? <div className="loading"><ButtonExample/></div>: <div >
     {
         posts.map((post, index) =>
        <div className="projectcontent" >

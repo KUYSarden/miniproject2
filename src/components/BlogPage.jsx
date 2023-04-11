@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import axios from "axios"
 import Card from 'react-bootstrap/Card'
 import LoadingButton from "./Loadingbutton"
+import ButtonExample from "./Spinnerloading";
 
 
 function  BlogPage () {
@@ -29,7 +30,7 @@ function  BlogPage () {
 
    return (
     <>  
-    {loading ? <div className="loading">FETCHING DATA</div>: <div className="blogs">
+    {loading ? <div className="loading"><ButtonExample/></div>: <div className="blogs">
     <div className="blog-body">
     <div className="d-body">
     {
